@@ -13,14 +13,14 @@ import java.util.List;
  *
  * @author tomik
  */
-@Named(value = "bean1")
+@Named(value = "bean4")
 @RequestScoped
-public class Bean1 {
+public class BeanExo4 {
 
     /**
      * Creates a new instance of Bean
      */
-    public Bean1() {
+    public BeanExo4() {
     }
     private int nombre;
 
@@ -42,7 +42,7 @@ public class Bean1 {
     }
 
     public String afficher() {
-        return "affichage_4?nb=" + nombre + "&;faces-redirect=true";
+        return "affichage__4?nb=" + nombre + "&;faces-redirect=true";
     }
 
 }
